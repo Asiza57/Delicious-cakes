@@ -1,0 +1,162 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(../p01.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+	
+.logo img{
+	float: left;
+	width: 200px;
+	height: 60px;
+	position: top-left;
+	
+}
+
+.main{
+	max-width: 1000px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	color: #ffccff;
+	top: 30%;
+	left: 50%;
+	font-size: 30px;
+	font-style: bold;
+	transform: translate(-50%,-50%);
+	
+}
+
+.button{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px  30px;
+	color: #ffff;
+	text-decoration: none;
+	transition: 0.6s ease;
+	position: middle;
+}
+
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(../contact01.jpg);
+	background-size: cover;
+}
+
+.contact-form{
+	width: 85%;
+	max-width: 500px;
+	background: #ffccff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 0 0 20px #000000b3;
+	font-family: "Montserrat", sans-serif;
+}
+
+.contact-form h1{
+	margin-top: 0;
+	font-weight: 200;
+}
+
+.txtb{
+	border: 1px solid gray;
+	margin: 8px 0;
+	padding: 12px 18px;
+	border-radius: 8px;
+}
+
+.txtb label{
+	display: block;
+	text-align: left;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.txtb input, .txtb textarea{
+	width: 100%;
+	border: none;
+	background: none;
+	outline: none;
+	font-size: 18px;
+	margin-top: 6px;
+}
+
+.btn1{
+	display: inline-block;
+	background: #9b59b6;
+	padding: 14px 0;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 8px;
+	width: 100%;
+}
+	
+video{
+	width: 45%;
+	height: 40%;
+	position: absolute;
+	top: 50%; 
+	left: 28%;
+}
+
+
+
+
+
+	
